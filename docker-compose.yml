@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  engine:
+      build: ./docker/engine
+      volumes:
+        - .:/var/www/your-project:rw
+        - ./package.json:/var/www/your-project/package.json:rw
+      working_dir: "/var/www/your-project"
+      ports:
+        - 8075:8075
+      tty: true

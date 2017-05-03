@@ -1,0 +1,8 @@
+{
+  "name": "docker-vue-cli",
+  "version": "1.0.0",
+  "description": "To quick start vue2.js project",
+  "dependencies": {
+    "vue-cli": "^2.8.1"
+  }
+}
